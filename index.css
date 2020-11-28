@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+   margin: 0;
+ box-sizing: border-box;  
+}
+.top-bar{
+    /* border: 2px solid green; */
+    padding: 30px;
+    display: flex;
+   justify-content: center;
+   margin-bottom: 25px;
+}
+.nav-bar{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+}
+.nav-link{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 15vw;
+    color: white;
+    text-decoration: none;
+}
+.orange{
+background-color:#FB764F;
+}
+.blue{  
+background-color: #5ED3EB
+}   
+.yellow{
+background-color: #FFCD6A;
+}
+.cta{
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: space-between; */
+    width: 95vw;
+    margin: 0 auto;
+}
+.cta-image{
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+    /* border: 2px solid orange; */
+    margin-right: 25px;
+}
+.cta-wording{
+/* border:2px solid black; */
+margin: 25px;
+}
+.cta-text-container{
+    /* border: 5px solid purple; */
+    text-align: center;
+
+}
+h1.cta-wording{
+    font-size: 75px;
+}
+p.cta-wording{
+    font-size: 20px;
+}
+.about{
+    border: 2px solid black;
+    background-color: rgba(247, 154, 120, 0.911);
+    margin: 50px;
+    padding: 25px;
+    color: rgba(255, 255,255, 0.7);
+}
+.container-one{
+text-align: center;
+margin-bottom: 35px;
+/* padding:50px; */
+}
+.container-two{
+text-align: center;
+}
+div.camping-card{
+    margin-top: 50px;
+}
+.camping-image{
+/* border: 3px solid black; */
+width:85px;
+height:85px;
+
+}
+.camping-image-two{
+/* border: 4px solid green; */
+width: 85px;
+height: 85px;
+}
+.camping-card{
+    /* border: 2px solid grey; */
+    text-align: center;
+    /* font-size: 20px; */
+}
+.card-text{
+    /* border: 2px solid black; */
+    font-size: 15px;
+    width: 200px;
+    margin: 0 auto
+}
+footer{
+    margin-top:50px;
+}
+.footer-image{
+max-width: 100%;
+height: 30vw;
+background:url("./assets/footer_img.jpg");
+}
+.footer-nav{
+    /* border: 2px solid green; */
+    padding: 30px;
+    display: flex;
+   justify-content: center;
+   margin-bottom: 25px;
+}
+.nav-bar{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+}
+.nav-link{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 15vw;
+    color: white;
+    text-decoration: none;
+}
